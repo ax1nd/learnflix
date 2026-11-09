@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <!-- Background Cinematic Gradient -->
+    <linearGradient id="bg_cs-ds-03" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#021814" />
+      <stop offset="45%" stop-color="#06362d" />
+      <stop offset="100%" stop-color="#010d0a" />
+    </linearGradient>
+
+    <!-- Deep Vignette Scrim (Ensures text rendered in HTML on top is 100% legible) -->
+    <radialGradient id="vignette_cs-ds-03" cx="50%" cy="50%" r="60%">
+      <stop offset="40%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9" />
+    </radialGradient>
+
+    <linearGradient id="fadeLeft_cs-ds-03" x1="0%" y1="0%" x2="70%" y2="0%">
+      <stop offset="0%" stop-color="#141414" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#141414" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#141414" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1280" height="720" fill="url(#bg_cs-ds-03)" />
+
+  <!-- Thematic Visual Schematic Graphic -->
+  
+        <!-- Data Distribution & Matrix Analytics -->
+        <g opacity="0.6" transform="translate(620, 160)">
+          <!-- Gaussian Regression Curve -->
+          <path d="M 20 420 Q 180 410 260 220 T 400 60 T 540 320 T 660 420" fill="none" stroke="#34d399" stroke-width="5" opacity="0.9" />
+          <!-- Histogram Density Bars -->
+          <g fill="#059669" opacity="0.4">
+            <rect x="60" y="340" width="45" height="90" rx="4" />
+            <rect x="120" y="270" width="45" height="160" rx="4" />
+            <rect x="180" y="190" width="45" height="240" rx="4" />
+            <rect x="240" y="110" width="45" height="320" rx="4" fill="#34d399" opacity="0.7" />
+            <rect x="300" y="70" width="45" height="360" rx="4" fill="#34d399" opacity="0.8" />
+            <rect x="360" y="140" width="45" height="290" rx="4" />
+            <rect x="420" y="230" width="45" height="200" rx="4" />
+            <rect x="480" y="310" width="45" height="120" rx="4" />
+            <rect x="540" y="370" width="45" height="60" rx="4" />
+          </g>
+        </g>
+      
+
+  <!-- Left Shadow Scrim (Leaves clean focal area for HTML headlines) -->
+  <rect width="1280" height="720" fill="url(#fadeLeft_cs-ds-03)" />
+  <rect width="1280" height="720" fill="url(#vignette_cs-ds-03)" />
+
+  <!-- Subtle Ambient Corner Grid Pattern -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="120" x2="1280" y2="120" />
+    <line x1="0" y1="240" x2="1280" y2="240" />
+    <line x1="0" y1="360" x2="1280" y2="360" />
+    <line x1="0" y1="480" x2="1280" y2="480" />
+    <line x1="0" y1="600" x2="1280" y2="600" />
+    <line x1="160" y1="0" x2="160" y2="720" />
+    <line x1="320" y1="0" x2="320" y2="720" />
+    <line x1="480" y1="0" x2="480" y2="720" />
+    <line x1="640" y1="0" x2="640" y2="720" />
+    <line x1="800" y1="0" x2="800" y2="720" />
+    <line x1="960" y1="0" x2="960" y2="720" />
+    <line x1="1120" y1="0" x2="1120" y2="720" />
+  </g>
+
+  <!-- Discreet Brand Monogram in Top Right (Never interferes with left HTML text) -->
+  <g transform="translate(1180, 50)" opacity="0.4">
+    <rect x="-40" y="-15" width="80" height="30" rx="4" fill="#000000" opacity="0.5" />
+    <text x="0" y="6" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="900" fill="#059669" text-anchor="middle" letter-spacing="1">NETFLIX</text>
+  </g>
+</svg>

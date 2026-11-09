@@ -1,0 +1,6 @@
+{
+  "name": "LearnFlix AI - Personalized Course Recommendation Engine",
+  "description": "Netflix-inspired AI-powered personalized learning platform with content & collaborative recommendation engines, skill gap detection, adaptive roadmaps, and LLM explainability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

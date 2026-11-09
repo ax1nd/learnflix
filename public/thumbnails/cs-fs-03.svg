@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <!-- Background Cinematic Gradient -->
+    <linearGradient id="bg_cs-fs-03" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e0422" />
+      <stop offset="45%" stop-color="#230b50" />
+      <stop offset="100%" stop-color="#070211" />
+    </linearGradient>
+
+    <!-- Deep Vignette Scrim (Ensures text rendered in HTML on top is 100% legible) -->
+    <radialGradient id="vignette_cs-fs-03" cx="50%" cy="50%" r="60%">
+      <stop offset="40%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9" />
+    </radialGradient>
+
+    <linearGradient id="fadeLeft_cs-fs-03" x1="0%" y1="0%" x2="70%" y2="0%">
+      <stop offset="0%" stop-color="#141414" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#141414" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#141414" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1280" height="720" fill="url(#bg_cs-fs-03)" />
+
+  <!-- Thematic Visual Schematic Graphic -->
+  
+        <!-- Full-Stack Architecture Code Graphic -->
+        <g opacity="0.55" transform="translate(680, 140)">
+          <path d="M 120 40 L 20 220 L 120 400" stroke="#c084fc" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.8" />
+          <path d="M 360 40 L 460 220 L 360 400" stroke="#c084fc" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.8" />
+          <line x1="280" y1="30" x2="200" y2="420" stroke="#8b5cf6" stroke-width="8" stroke-linecap="round" opacity="0.9" />
+        </g>
+      
+
+  <!-- Left Shadow Scrim (Leaves clean focal area for HTML headlines) -->
+  <rect width="1280" height="720" fill="url(#fadeLeft_cs-fs-03)" />
+  <rect width="1280" height="720" fill="url(#vignette_cs-fs-03)" />
+
+  <!-- Subtle Ambient Corner Grid Pattern -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="120" x2="1280" y2="120" />
+    <line x1="0" y1="240" x2="1280" y2="240" />
+    <line x1="0" y1="360" x2="1280" y2="360" />
+    <line x1="0" y1="480" x2="1280" y2="480" />
+    <line x1="0" y1="600" x2="1280" y2="600" />
+    <line x1="160" y1="0" x2="160" y2="720" />
+    <line x1="320" y1="0" x2="320" y2="720" />
+    <line x1="480" y1="0" x2="480" y2="720" />
+    <line x1="640" y1="0" x2="640" y2="720" />
+    <line x1="800" y1="0" x2="800" y2="720" />
+    <line x1="960" y1="0" x2="960" y2="720" />
+    <line x1="1120" y1="0" x2="1120" y2="720" />
+  </g>
+
+  <!-- Discreet Brand Monogram in Top Right (Never interferes with left HTML text) -->
+  <g transform="translate(1180, 50)" opacity="0.4">
+    <rect x="-40" y="-15" width="80" height="30" rx="4" fill="#000000" opacity="0.5" />
+    <text x="0" y="6" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="900" fill="#8b5cf6" text-anchor="middle" letter-spacing="1">NETFLIX</text>
+  </g>
+</svg>

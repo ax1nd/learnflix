@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <!-- Background Cinematic Gradient -->
+    <linearGradient id="bg_cs-devops-02" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1003" />
+      <stop offset="45%" stop-color="#3d2307" />
+      <stop offset="100%" stop-color="#0c0701" />
+    </linearGradient>
+
+    <!-- Deep Vignette Scrim (Ensures text rendered in HTML on top is 100% legible) -->
+    <radialGradient id="vignette_cs-devops-02" cx="50%" cy="50%" r="60%">
+      <stop offset="40%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9" />
+    </radialGradient>
+
+    <linearGradient id="fadeLeft_cs-devops-02" x1="0%" y1="0%" x2="70%" y2="0%">
+      <stop offset="0%" stop-color="#141414" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#141414" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#141414" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1280" height="720" fill="url(#bg_cs-devops-02)" />
+
+  <!-- Thematic Visual Schematic Graphic -->
+  
+        <!-- Distributed Cloud & Microservices -->
+        <g opacity="0.6" transform="translate(680, 140)">
+          <!-- Floating Cloud Cluster -->
+          <path d="M 120 220 A 70 70 0 0 1 240 140 A 100 100 0 0 1 420 160 A 80 80 0 0 1 480 250 A 60 60 0 0 1 440 340 L 100 340 A 60 60 0 0 1 120 220 Z" fill="#d97706" opacity="0.25" stroke="#fbbf24" stroke-width="3" />
+          <!-- Container Pods -->
+          <rect x="120" y="380" width="80" height="65" rx="6" fill="#fbbf24" opacity="0.7" />
+          <rect x="230" y="380" width="80" height="65" rx="6" fill="#d97706" opacity="0.8" />
+          <rect x="340" y="380" width="80" height="65" rx="6" fill="#fbbf24" opacity="0.7" />
+          <line x1="200" y1="340" x2="160" y2="380" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4" />
+          <line x1="280" y1="340" x2="270" y2="380" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4" />
+          <line x1="360" y1="340" x2="380" y2="380" stroke="#fbbf24" stroke-width="2" stroke-dasharray="4" />
+        </g>
+      
+
+  <!-- Left Shadow Scrim (Leaves clean focal area for HTML headlines) -->
+  <rect width="1280" height="720" fill="url(#fadeLeft_cs-devops-02)" />
+  <rect width="1280" height="720" fill="url(#vignette_cs-devops-02)" />
+
+  <!-- Subtle Ambient Corner Grid Pattern -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="120" x2="1280" y2="120" />
+    <line x1="0" y1="240" x2="1280" y2="240" />
+    <line x1="0" y1="360" x2="1280" y2="360" />
+    <line x1="0" y1="480" x2="1280" y2="480" />
+    <line x1="0" y1="600" x2="1280" y2="600" />
+    <line x1="160" y1="0" x2="160" y2="720" />
+    <line x1="320" y1="0" x2="320" y2="720" />
+    <line x1="480" y1="0" x2="480" y2="720" />
+    <line x1="640" y1="0" x2="640" y2="720" />
+    <line x1="800" y1="0" x2="800" y2="720" />
+    <line x1="960" y1="0" x2="960" y2="720" />
+    <line x1="1120" y1="0" x2="1120" y2="720" />
+  </g>
+
+  <!-- Discreet Brand Monogram in Top Right (Never interferes with left HTML text) -->
+  <g transform="translate(1180, 50)" opacity="0.4">
+    <rect x="-40" y="-15" width="80" height="30" rx="4" fill="#000000" opacity="0.5" />
+    <text x="0" y="6" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="900" fill="#d97706" text-anchor="middle" letter-spacing="1">NETFLIX</text>
+  </g>
+</svg>

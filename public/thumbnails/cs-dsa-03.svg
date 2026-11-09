@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <!-- Background Cinematic Gradient -->
+    <linearGradient id="bg_cs-dsa-03" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030e20" />
+      <stop offset="45%" stop-color="#082247" />
+      <stop offset="100%" stop-color="#02060f" />
+    </linearGradient>
+
+    <!-- Deep Vignette Scrim (Ensures text rendered in HTML on top is 100% legible) -->
+    <radialGradient id="vignette_cs-dsa-03" cx="50%" cy="50%" r="60%">
+      <stop offset="40%" stop-color="#000000" stop-opacity="0" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.9" />
+    </radialGradient>
+
+    <linearGradient id="fadeLeft_cs-dsa-03" x1="0%" y1="0%" x2="70%" y2="0%">
+      <stop offset="0%" stop-color="#141414" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#141414" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#141414" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1280" height="720" fill="url(#bg_cs-dsa-03)" />
+
+  <!-- Thematic Visual Schematic Graphic -->
+  
+        <!-- Algorithmic Tree & Array Graph -->
+        <g opacity="0.6">
+          <g stroke="#38bdf8" stroke-width="3" opacity="0.5">
+            <line x1="950" y1="160" x2="820" y2="280" />
+            <line x1="950" y1="160" x2="1080" y2="280" />
+            <line x1="820" y1="280" x2="740" y2="420" />
+            <line x1="820" y1="280" x2="890" y2="420" />
+            <line x1="1080" y1="280" x2="1010" y2="420" />
+            <line x1="1080" y1="280" x2="1160" y2="420" />
+          </g>
+          <g fill="#0284c7">
+            <circle cx="950" cy="160" r="28" fill="#ffffff" />
+            <circle cx="820" cy="280" r="22" fill="#38bdf8" />
+            <circle cx="1080" cy="280" r="22" fill="#38bdf8" />
+            <circle cx="740" cy="420" r="18" />
+            <circle cx="890" cy="420" r="18" />
+            <circle cx="1010" cy="420" r="18" />
+            <circle cx="1160" cy="420" r="18" />
+          </g>
+          <!-- Indexed Memory Array Matrix -->
+          <g transform="translate(680, 520)" opacity="0.6">
+            <rect x="0" y="0" width="480" height="70" rx="8" fill="#030e20" stroke="#38bdf8" stroke-width="2" />
+            <line x1="120" y1="0" x2="120" y2="70" stroke="#38bdf8" stroke-width="2" />
+            <line x1="240" y1="0" x2="240" y2="70" stroke="#38bdf8" stroke-width="2" />
+            <line x1="360" y1="0" x2="360" y2="70" stroke="#38bdf8" stroke-width="2" />
+            <rect x="240" y="0" width="120" height="70" fill="#0284c7" opacity="0.3" />
+          </g>
+        </g>
+      
+
+  <!-- Left Shadow Scrim (Leaves clean focal area for HTML headlines) -->
+  <rect width="1280" height="720" fill="url(#fadeLeft_cs-dsa-03)" />
+  <rect width="1280" height="720" fill="url(#vignette_cs-dsa-03)" />
+
+  <!-- Subtle Ambient Corner Grid Pattern -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="120" x2="1280" y2="120" />
+    <line x1="0" y1="240" x2="1280" y2="240" />
+    <line x1="0" y1="360" x2="1280" y2="360" />
+    <line x1="0" y1="480" x2="1280" y2="480" />
+    <line x1="0" y1="600" x2="1280" y2="600" />
+    <line x1="160" y1="0" x2="160" y2="720" />
+    <line x1="320" y1="0" x2="320" y2="720" />
+    <line x1="480" y1="0" x2="480" y2="720" />
+    <line x1="640" y1="0" x2="640" y2="720" />
+    <line x1="800" y1="0" x2="800" y2="720" />
+    <line x1="960" y1="0" x2="960" y2="720" />
+    <line x1="1120" y1="0" x2="1120" y2="720" />
+  </g>
+
+  <!-- Discreet Brand Monogram in Top Right (Never interferes with left HTML text) -->
+  <g transform="translate(1180, 50)" opacity="0.4">
+    <rect x="-40" y="-15" width="80" height="30" rx="4" fill="#000000" opacity="0.5" />
+    <text x="0" y="6" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="900" fill="#0284c7" text-anchor="middle" letter-spacing="1">NETFLIX</text>
+  </g>
+</svg>
